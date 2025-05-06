@@ -1,0 +1,24 @@
+{
+  "name": "@teetawat-chitpitak/remove-array-index",
+  "version": "1.0.0",
+  "description": "remove array specific index and remove array using range in format {from:xx,to:xx}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeetawatChitpitak/js-remove-array-index.git"
+  },
+  "keywords": [
+    "remove array",
+    "specific",
+    "index"
+  ],
+  "author": "teetawat-chitpitak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeetawatChitpitak/js-remove-array-index/issues"
+  },
+  "homepage": "https://github.com/TeetawatChitpitak/js-remove-array-index#readme"
+}
