@@ -2,7 +2,7 @@ const removeIndex = (array, index) => {
   const is_array = Array.isArray(array);
   if (is_array) {
     if (array.length) {
-      return { renmoved: array.splice(index, 1), array };
+      return { renmoved: array.splice(index, 1), result: array };
     } else {
       return [];
     }
@@ -17,7 +17,7 @@ const removeRange = (array, range) => {
   if (!range.from || !range.to) {
     throw new Error("Your second parameter must be an object with from and to properties like {from: 0, to: 1}");
   }
-  return { removed: array.splice(range.from, range.to), array };
+  return { removed: array.splice(range.from, range.to), result: array };
 };
 
 module.exports = {
