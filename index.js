@@ -17,7 +17,7 @@ const removeRange = (array, range) => {
   if (!range.from || !range.to) {
     throw new Error("Your second parameter must be an object with from and to properties like {from: 0, to: 1}");
   }
-  return { removed: array.splice(range.from, range.to), result: array };
+  return { removed: array.splice(range.from, range.to - range.from), result: array };
 };
 
 module.exports = {
